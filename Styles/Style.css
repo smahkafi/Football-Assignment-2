@@ -23,6 +23,9 @@ main{
     
     align-items: center;
 }
+.banner .highlights{
+    margin: 0;
+}
 .banner h1{
     color: white;
 }
@@ -158,6 +161,29 @@ span{
 /*-------
 highlights section end
 ------  */
+
+/* sponsor start  */
+.sponsor{
+    margin-top: 125px;
+}
+.sponsor h2{
+    box-shadow: ;
+    text-align: center;
+    color: gray;
+    font-size: 30px;
+    font-weight: 700;
+}
+.sponsor-items img{
+    padding: 0 25px;
+    
+}
+.sponsor-img{
+    text-align: center;
+}
+
+/* ---
+sponsor end 
+--- */
 
 
 /* footer section start  */
