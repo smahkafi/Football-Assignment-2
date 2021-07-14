@@ -1,0 +1,73 @@
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: rgba(240, 237, 237, 0.801)
+}
+main{
+    
+        
+}
+.container{
+    width: 1160px;
+    position: relative;
+    background: rgba(240, 237, 237, 0.801)
+    
+}
+/* ------common style end ------*/
+
+
+/* ---------------
+            player-details start
+-----------------*/
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    justify-content: center;
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    height: 100%;
+    overflow: hidden;
+}
+.player{
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+    width: 330px;
+    height:474px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+}
+.player img{
+    margin: 16px 0px;
+    width: 300px;
+    width: 100%;
+    height: 256px;
+    overflow: hidden;
+}
+
+.player h2{
+    margin: 0px;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+    margin: 10px 0px;
+    color: #18191F;
+    width: 300px;
+    left: calc(50% - 300px/2);
+    top: 0%;
+    bottom: 74.03%;
+}
+.player p{
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+
+/* ------------------
+player-details end
+---------------- */
