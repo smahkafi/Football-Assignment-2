@@ -7,7 +7,10 @@ body{
     justify-content: center;
     background: #0000000c;
 }
-
+main{
+    
+   
+}
 .container{
     width: 1160px;
     position: relative;
@@ -15,11 +18,29 @@ body{
     
 }
 /* ------common style end ------*/
+.banner{
+    background-color: blue;
+    
+    align-items: center;
+}
+.banner h1{
+    color: white;
+}
+.banner .highlights-details{
+    margin-top: 27px;
+}
 
-
+.banner img:hover {
+    transform:rotate(-2deg);
+    transform-origin:center;
+    transition: transform 1s ease-out ;
+}
 /* ---------------
             player-details start
 -----------------*/
+.player-details{
+    margin-top: 10px;
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
@@ -27,7 +48,7 @@ body{
     grid-column-gap: 30px;
     grid-row-gap: 27px;
     height: 100%;
-    overflow: hidden;
+    
 }
 .player{
     background-color: white;
@@ -36,6 +57,7 @@ body{
     width: 330px;
     height:474px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
     
 }
 .player img{
@@ -69,9 +91,7 @@ body{
 player-details end
 ---------------- */
 
-/* ------
-highlights area start
-------  */
+/* ------highlights area start------  */
 .highlights{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -105,13 +125,58 @@ highlights area start
     left: 0px;
     top: 128px
 }
+.watch{
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 30px;
 
+}
+span{
+    padding-left: 5px;
+}
 .highlights img{
     width: 567px;
     height: 427px;    
 }
+/*-------
+highlights section end
+------  */
 
 
+/* footer section start  */
 footer{
-    margin: auto;
+    margin-top: 160px;
+    margin-bottom: 63px;
 }
+.footer{
+    margin: auto;
+    width: 483.87px;
+    height: 213px;
+    
+}
+footer .logo img {
+    width: 483.87px;
+    height: 110px;
+}
+.footer .social-link{
+    
+    text-align: center;
+}
+.footer .social-link a{
+    line-height: 8px;
+    margin: 0;
+    margin-top: 8px;
+    padding: 0;
+    font-size: 32px;
+}
+.footer p{
+    gap: 8px;
+    text-align: center;
+    margin: 0;
+    margin-top: 8px;
+    padding: 0;
+}
+
+/* footer section end  */
