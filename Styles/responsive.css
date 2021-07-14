@@ -38,7 +38,17 @@
 
 
 
-     .highlights, .sponsor, .footer{
-        display: none;
+     .highlights{
+         display: block;
+     } 
+     .highlights-video img{
+        width: 100%;
+        
+     }     
+     .sponsor-items h2{
+         text-align:center
+     }
+     .footer{
+        
     }
 }
