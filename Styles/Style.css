@@ -30,10 +30,25 @@ main{
     margin-top: 27px;
 }
 
-.banner img:hover {
+.banner .banner-photo .player-pic img{
+    position: relative
+    
+}
+.banner .banner-photo .player-pic img:hover {
     transform:rotate(-2deg);
     transform-origin:center;
     transition: transform 1s ease-out ;
+}
+
+.banner .banner-photo .ball-pic img{
+    position: absolute;
+    top: 100px;
+    width: 50px;
+    height: 50px;
+}
+.banner .banner-photo:hover .ball-pic img{
+    transform: translate(30px);
+    bottom: 60px;
 }
 /* ---------------
             player-details start
