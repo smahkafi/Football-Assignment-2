@@ -5,16 +5,13 @@ body{
     padding: 0;
     display: flex;
     justify-content: center;
-    background: rgba(240, 237, 237, 0.801)
+    background: #0000000c;
 }
-main{
-    
-        
-}
+
 .container{
     width: 1160px;
     position: relative;
-    background: rgba(240, 237, 237, 0.801)
+    background: #00000000;
     
 }
 /* ------common style end ------*/
@@ -71,3 +68,50 @@ main{
 /* ------------------
 player-details end
 ---------------- */
+
+/* ------
+highlights area start
+------  */
+.highlights{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 70px;
+    margin-top: 170px;
+    
+}
+.highlights-content{
+    margin: auto;
+    width: 466px;
+    height: 309px;
+    line-height: 8px;
+}
+
+.highlights-content h1{
+    margin: 0;
+    width: 100%;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}    
+.highlights-details{
+    line-height: 24px;
+}
+.highlights-details p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    width: 404px;
+    height: 113px;
+    left: 0px;
+    top: 128px
+}
+
+.highlights img{
+    width: 567px;
+    height: 427px;    
+}
+
+
+footer{
+    margin: auto;
+}
